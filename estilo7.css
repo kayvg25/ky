@@ -1,0 +1,85 @@
+body{
+    font-family: "Chicle", serif;
+    color: rgb(0, 255, 170);
+    padding: 20px;
+    background: linear-gradient(35deg, rgb(192, 24, 46) 23%, rgb(84, 165, 202) 100%) fixed;
+}
+form{
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    margin-top: 10px;
+}
+.hola {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    min-height: 100px; /* Altura completa de la pantalla */
+    width: 300px; /* Ancho deseado */
+}
+div label{
+    margin-right: 15px; /* Espacio entre palabras */
+  display: inline-block;
+}
+  
+/*input,textarea,select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-color: rgb(212, 88, 57);
+    border-radius: 3px;
+    background-color: rgb(59, 173, 173);
+}
+input,textarea{
+    box-shadow: 0 0 10px 3px #e4dcdc; /* 5px de expansión} */
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #7c0529;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(19, 17, 22);
+}
+input,textarea,select:hover{
+    color: bisque;
+}
+.formulario-contenedor {
+    max-width: 550px; /* Ancho máximo del contenedor */
+    margin: 40px auto; /* Centrado vertical/horizontal */
+    padding: 25px;
+    border: 2px solid #1a77a5;
+    border-radius: 12px;
+    background-color: transparent;
+    box-shadow: 0 0 10px 5px black;
+  }
+  
+  /* Estilos para inputs */
+  .formulario-contenedor input,
+  .formulario-contenedor textarea,
+  .formulario-contenedor select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    background: #0d208d;
+  }
+legend{
+    font-size: 12px;
+    text-align: center;
+}
+fieldset{
+    padding: 20px;
+}

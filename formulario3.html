@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4</title>
+    <link rel="stylesheet" href="estilo6.css">
+</head>
+<body>
+    <div class="formulario-contenedor">
+        <h2>Formulario de registro</h2>
+        <form action="usu.php" method="get">
+            <label for="lblnombre">Ingrese nombre:</label>
+            <input type="text" id="lblnombre" name="txtnombre" required>
+            <label for="lblapellido">Ingrese apellido:</label>
+            <input type="text" id="lblapellido" name="txtapellido">
+            <label for="lblnumero">Ingrese número:</label>
+            <input type="text" id="lblnumero" name="txtnum">
+            <label for="lbladirección">Ingrese correo:</label>
+            <input type="text" id="lblcorreo" name="txtcorreo">
+            <label for="cbopais">País </label>
+            <select name="text" id="cbopais">
+            <option value="Países">seleccione un país</option>
+            <option value="PERÚ">PERÚ</option>
+            <option value="COLOMBIA">COLOMBIA</option>
+            <option value="BRASIL">BRASIL</option>
+            <option value="ARGENTINA">ARGENTINA</option>
+            <option value="ECUADOR">ECUADOR</option>
+            <option value="PARAGUAY">PARAGUAY</option>
+            <option value="VENEZUELA">VENEZUELA</option>
+            <option value="ESTADOS UNIDOS">ESTADOS UNIDOS</option>
+            <option value="MÉXICO">MÉXICO</option>
+            <option value="URUGUAY">URUGUAY</option>
+            </select>
+
+        <label for="cboEcivil">Estado civíl </label>
+        <select name="estado" id="cboEcivil">
+        <option value="">seleccione</option>
+        <option value="casado">CASADO</option>
+        <option value="soltero">SOLTERO</option>
+        <option value="divorciado">DIVORCIADO</option>
+        <option value="conviviente">CONVIVIENTE</option>
+        </select>
+        <label>
+            <input type="checkbox" name="chikterminos" required>
+            Aceptar los terminos y condiciones
+        </label>
+        <button type="submit">Enviar</button>
+        </form>
+        </div>
+</body>
+</html>

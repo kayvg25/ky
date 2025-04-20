@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilo5.css">
+    <marquee>
+        <h1>Formulario de ingreso de datos</h1>
+    </marquee>
+</head>
+<body>
+    <div class="formulario-contenedor">
+    <h2>Formulario de registro</h2>
+    <form action="procesar.php" method="get">
+        <label for="lblnombre">Ingrese nombre:</label>
+        <input type="text" id="lblnombre" name="txtnombre" required>
+        <label for="lblapellido">Ingrese apellido:</label>
+        <input type="text" id="lblapellido" name="txtapellido">
+        <label for="lbladirección">Ingrese correo:</label>
+        <input type="text" id="lblcorreo" name="txtcorreo">
+        <label for="lbledad">Ingrese edad:</label>
+        <input type="number" id="lbledad" name="txtedad" min="12" max="99" required>
+
+        
+    <label for="lblapellido">Ingrese fecha de nacimiento:</label>
+    <input type="date" id="lblfecha" name="txtafecha" required>
+    <label for="cbogenero">Seleccione: </label>
+    <select name="genero" id="cbogenero">
+
+
+    <option value="">seleccione</option>
+    <option value="masculino">masculino</option>
+    <option value="femenino ">femenino</option>
+    <option value="prefiero no decirlo">No decirlo</option>
+    <option value="otros">otros</option>
+    </select>
+    <label for="lblmensaje">Escribe mensaje:</label>
+    <textarea name="terminos" id="lblmensaje" rowns="5" placeholder="Escriba su mensaje........"></textarea>
+    <label>
+        <input type="checkbox" name="chikterminos" required>
+        Aceptar los terminos y condiciones
+    </label>
+    <button type="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>

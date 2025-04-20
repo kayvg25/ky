@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario4</title>
+    <link rel="stylesheet" href="estilo7.css">
+</head>
+<body>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Selecciona tu Estado civíl:</legend>
+            <div class="hola">
+          <div>
+            <input type="radio" id="opcion1" name="grupo" value="1">
+            <label for="opcion1">casado</label>
+          </div>
+          <div>
+            <input type="radio" id="opcion2" name="grupo" value="2">
+            <label for="opcion2">soltero</label>
+          </div>
+          <div>
+            <input type="radio" id="opcion3" name="grupo" value="3">
+            <label for="opcion3">divorciado</label>
+          </div>
+          <div>
+            <input type="radio" id="opcion4" name="grupo" value="4">
+            <label for="opcion4">conviviente</label>
+          </div>
+        </div>
+    </fieldset>
+    <br>
+    <br>
+        <fieldset>
+        <legend>Selecciona tus opciones (múltiple):</legend>
+
+    <!-- Opción 1 -->
+    <div>
+      <input type="checkbox" id="opcion1" name="opciones" value="1">
+      <label for="opcion1">gratificación</label>
+    </div>
+
+    <!-- Opción 2 -->
+    <div>
+      <input type="checkbox" id="opcion2" name="opciones" value="2">
+      <label for="opcion2">escolaridad</label>
+    </div>
+
+    <!-- Opción 3 -->
+    <div>
+      <input type="checkbox" id="opcion3" name="opciones" value="3">
+      <label for="opcion3">bono</label>
+    </div>
+</fieldset>
+    <label for="lblmensaje">Escribe mensaje:</label>
+    <textarea name="terminos" id="lblmensaje" rowns="5" placeholder="Escriba su mensaje........"></textarea>
+    <label>
+        <input type="checkbox" name="chikterminos" required>
+        Aceptar los terminos y condiciones
+    </label>
+    <button type="submit">Enviar</button>
+
+      </form>
+</body>
+</html>

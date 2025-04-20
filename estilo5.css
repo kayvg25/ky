@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+body{
+    font-family: "Chicle", serif;
+    color: rgb(0, 255, 170);
+    padding: 20px;
+    /*background: linear-gradient(35deg, rgb(228, 113, 128) 23%, rgb(68, 3, 106) 100%) fixed;*/
+    background-image: url('inicio/wi.jpg');
+    background-size: cover; /* Cubre toda el área */
+    background-repeat: no-repeat; /* Evita repetición */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fondo estático (opcional) */
+    margin: 0; /* Elimina márgenes por defecto */
+    min-height: 100vh; /* Altura mínima = ventana visible */
+}
+form{
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    margin-top: 10px;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-color: rgb(212, 88, 57);
+    border-radius: 3px;
+    background-color: rgb(59, 173, 173);
+}
+input,textarea{
+    box-shadow: 0 0 10px 3px #e4dcdc; /* 5px de expansión */
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #7c0529;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(19, 17, 22);
+}
+input,textarea,select:hover{
+    color: bisque;
+}
+.formulario-contenedor {
+    max-width: 550px; /* Ancho máximo del contenedor */
+    margin: 40px auto; /* Centrado vertical/horizontal */
+    padding: 25px;
+    border: 2px solid #1a77a5;
+    border-radius: 12px;
+    background-color: transparent;
+    box-shadow: 0 0 10px 5px black;
+  }
+  
+  /* Estilos para inputs */
+  .formulario-contenedor input,
+  .formulario-contenedor textarea,
+  .formulario-contenedor select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    background: #0d208d;
+  }
